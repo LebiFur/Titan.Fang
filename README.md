@@ -1,0 +1,1 @@
+Standalone, platform agnostic render graph solution for [Titan](https://github.com/LebiFur/Titan)
