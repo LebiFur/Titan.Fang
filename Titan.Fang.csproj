@@ -5,8 +5,25 @@
 		<ProduceReferenceAssembly>False</ProduceReferenceAssembly>
 		<Nullable>enable</Nullable>
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/LebiFur/Titan.Fang.git</RepositoryUrl>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<Title>Titan.Fang</Title>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageId>Lebi.Titan.Fang</PackageId>
+		<Authors>Lebi</Authors>
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="Silk.NET.Maths" Version="2.23.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Update="LICENSE">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
 	</ItemGroup>
 </Project>
